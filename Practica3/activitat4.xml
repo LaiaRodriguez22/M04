@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore> <!--ROOT-->
+    <book> <!--CHILD DE BOOKSTORE-->
+        <!--SUBCHILDS DE BOOK-->
+        <title>Bon dia</title> 
+        <publisher>Planeta</publisher>
+        <cover>Portada Rosa</cover>
+        <price>17,50$</price>
+    </book>
+</bookstore>
