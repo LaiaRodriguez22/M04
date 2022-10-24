@@ -1,0 +1,41 @@
+{"students":{
+    "student":{ 
+        "codi": "1",
+        "name": "Paco",
+        "surname": "Rodriguez",
+        "email": "pacorodriguez2@gmail.com",
+        "dni": "46281923V"
+    },
+
+    "student":{
+        "codi": "2",
+        "name": "Laia",
+        "surname": "Garcia",
+        "email": "laiagarcia23@gmail.com",
+        "dni": "47283917E"
+    },
+
+    "student":{
+        "codi": "3",
+        "name": "Dani",
+        "surname": "Lopez",
+        "email": "davidlopez23@gmail.com",
+        "dni": "22738195P"
+    },
+
+    "student":{
+        "codi": "4",
+        "name": "Luis",
+        "surname": "Cornejo",
+        "email": "luiscornejo12@gmail.com",
+        "dni": "83762817G"
+    },
+
+    "student":{
+        "codi": "5",
+        "name": "Patricia ",
+        "surname": "Romirez",
+        "email": "patriciaromirez23@gmail.com",
+        "dni": "44728196C"
+    }
+}}
