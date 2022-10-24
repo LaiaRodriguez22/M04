@@ -1,0 +1,33 @@
+<?xml version=1.0 encoding="UTF-8"?>
+<students> <!-- Es un ROOT-->
+    <student codi=1> <!-- CHILD y ATRIBUTO-->
+        <name> Paco </name> <!-- SUBCHILD-->
+        <surname>Rodríguez</surname>
+        <email>pacorodriguez2@gmail.com</email>
+        <dni>46281923V</dni>
+    </student>
+      <student codi=2>
+        <name> Laia </name>
+        <surname>Garcia</surname>
+        <email>laiagarcia23@gmail.com</email>
+        <dni>47283917E</dni>
+    </student>
+      <student codi=3>
+        <name> Dani </name>
+        <surname>Lopez</surname>
+        <email>davidlopez23@gmail.com</email>
+        <dni>22738195P</dni>
+    </student>
+      <student codi=4>
+        <name> Luis </name>
+        <surname>Cornejo</surname>
+        <email>luiscornejo12@gmail.com</email>
+        <dni>83762817G</dni>
+    </student>
+      <student codi =5>
+        <name> Patricia </name>
+        <surname>Romirez</surname>
+        <email>patriciaromirez23@gmail.com</email>
+        <dni>44728196C</dni>
+    </student>
+</students>
