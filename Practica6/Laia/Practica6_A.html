@@ -1,0 +1,57 @@
+<!--PRACTICA 6_A-->
+
+<!DOCTYPE html>
+<html lang ="es">
+    <head>
+        <!--CSS EXTERN-->
+        <link href="Practica6_A.css" rel="stylesheet"> 
+        <!--FONTS EXTERNES, DE GOOGLE-->
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&amp;display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <!--ESTO ES EL TÍTULO PRINCIPAL DE LA PÁGINA WEB-->
+        <title>Practica6_A</title>
+    </head>
+    <body>
+        <form>
+            <!--AQUI RECOLLIM EL NOM, COGNOM I EDAT DEL USUARI-->
+            <!--EN AQUESTS PRIMERS INPUTS PODEM POSAR CADENES-->
+            <label class="txtA">Nom:  </label><input type="text" placeholder="EL TEU NOM"><br>
+            <label class="txtA">Cognom: </label><input type="text" placeholder="EL TEU COGNOM"><br>
+            <!--EN AQUEST INPUT PODEM POSAR NOMÉS NUMEROS-->
+            <label class="txtA">Edat:  </label><input type="number" placeholder="20">
+            
+            <br>
+            
+            <p>Cicle formatiu que es vol fer l'any que vinent;</p>
+            <!--EN AQUEST TIPUS DE INPUT OBLIGUEM AL USUARI A ESCOLLIR UNA OPCIÓ-->
+            <!--EN TIPUS RADIO PODEM POSAR UN VALOR JA PREDETERMINAT, CHECKED. LLAVORS EL USUARI HO PODRA CANVIAR-->
+            <label class="txtA">DAM  </label><input type="radio" name="radio" checked><br>
+            <label class="txtA">DAW  </label><input type="radio" name="radio"><br>
+            <label class="txtA">ALTRE  </label><input type="radio" name="radio"><br>
+            
+            <br>
+            
+            <p>Marca les teves aficions;</p>
+            <!--EN AQUEST TIPUS INPUT, CHECKBOX, PODEM SELECCIONAR DIVERSES OPCIONS-->
+            <!--TORNEM A TROBAR EL CHECKED EN ESTUDIAR-->
+            <label class="txtA">ESTUDIAR  </label><input type="checkbox" name="checkbox" checked><br>
+            <label class="txtA">ASIX  </label><input type="checkbox" name="checkbox"><br>
+            <label class="txtA">LLIBRE  </label><input type="checkbox" name="checkbox"><br>
+            <label class="txtA">JUGAR A MAGIC  </label><input type="checkbox" name="checkbox"><br>
+            <label class="txtA">FER BURILLES  </label><input type="checkbox" name="checkbox"><br>
+            <!--EN AQUESTA OPCIÓ PODEM ESCRIURE VARIES OPCIONS COM A AFICIONS-->
+            <label class="txtA">ALTRES  </label><textarea rows="10" cols="50" class="areaTxt">Especifica quin.</textarea>
+            
+            <br><br>
+            
+            <label class="txtA">L'estandar d'HTML que més m'agrada és:</label>
+            <!--EN AQUESTA FUNCIO ANOMENADA SELECT OBLIGUEM AL USUARI A ESCOLLIR UNA OPCIÓ-->
+            <select>
+                <option value="HTML5">HTML5</option>
+                <option value="HTML 4.01">HTML 4.01</option>
+                <option value="XHTML 1.0">XHTML 1.0</option>
+            </select>
+        </form>
+    </body>
+</html>

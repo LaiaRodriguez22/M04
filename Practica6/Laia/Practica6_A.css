@@ -1,0 +1,32 @@
+/*PRACTICA 6_A*/
+
+body{
+    background-color: #0c0c0c;
+}
+
+p{
+    color:#fcfcfc;
+    font-family:Fira Sans;
+    font-size:30pt; 
+}
+
+p::first-letter{
+    color:#f11f81;
+}
+
+.txtA{
+    color:#fcfcfc;
+    font-family:Fira Sans;
+    font-size:20pt;
+}
+
+input{
+    font-family:Fira Sans;
+    font-size:15px;
+}
+
+.areaTxt{
+    font-family:Fira Sans;
+    font-size:15px;
+    color:#f11f81;
+}
