@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Página de Laia</title>
+    </head>
+
+    <body>
+        <!--HTML-->
+        <h1>M04: Llenguatge de marques.</h1>
+
+        <h2>Exercici 5 - HTML </h2>
+        <!--AQUI HI HA UNA CURSIVA-->
+        <p>Lorem ipsum dolor sit amet, <i>consectetur adipiscing elit.</i> Vestibulum eget facilisis lectus, sit amet dignissim lorem. Cras quis magna eu metus sodales volutpat quis ac orci. Aenean cursus lectus orci, nec lobortis est commodo non. Quisque turpis metus, tincidunt a libero sed, imperdiet eleifend nunc. Nunc sollicitudin leo vel nunc tempus, quis porttitor lacus commodo. Integer egestas aliquet mauris quis consequat. Donec eget leo et nulla congue fringilla vitae at neque. Nulla ultrices dignissim leo non dignissim. Nam pretium facilisis ante, nec convallis diam varius quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam ex ipsum, facilisis in elit a, laoreet efficitur lectus.</p>
+        <!--AQUI HI HA NEGRETA I UN BR-->
+        <p>Lorem ipsum dolor sit amet, <b>consectetur</b> adipiscing elit.<br>
+        Praesent ac sodales urna. Vivamus id mattis nibh. Suspendisse potenti. Nulla ut lacus vel eros iaculis venenatis. Pellentesque habitant morbi tristique senectus.  
+        </p>  
+        <!--DIV AMB CLASSES I SUBCLASS-->
+        <div class="gen">
+            <div class="img"></div>
+            <div class="ins">Institut Jaume Balmes</div>
+            <div class="bar">Barcelona</div>
+          </div>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget facilisis lectus, sit amet dignissim lorem. Cras quis magna eu metus sodales volutpat quis ac orci. Aenean cursus lectus orci, nec lobortis est commodo non. </p>
+
+         <ol>
+            <li>Un</li>
+            <li>Dos</li>
+            <li>Tres</li>
+         </ol>
+
+          <ul>
+            <!--LINKS QUE S'OBREN A UNA PESTANYA NOVA.-->
+            <li><a href="https://www.jaumebalmes.net" target="_blank">Index</a></li>
+            <li><a href="https://www.jaumebalmes.net/equip-directiu/" target="_blank">About us</a></li>
+            <li><a href="https://www.jaumebalmes.net/contacte/" target="_blank">Contacte</a></li>
+         </ul>
+    </body>
+
+</html>
+
+<style>
+
+body { /*--PER EL BODY PASSO LA FONT I COLOR--*/
+  background-color:#1c1c1c;
+  font-family:Verdana;
+  color:#ccc;
+}
+
+h1{
+  letter-spacing:0.5px;
+}
+
+h2{
+  letter-spacing:0.5px;
+}
+
+p{
+  font-size:9pt;
+}
+
+p b{
+ background-color:#111; 
+ font-size:9.2pt;
+ letter-spacing:0.8px;
+}
+
+
+p i{
+ background-color:#ccc; 
+ color:#111;
+ font-size:9.2pt;
+ letter-spacing:0.8px;
+}
+
+/*--DIV GENERAL--*/
+.gen{
+  width:100%;
+  overflow:hidden;
+  display:block;
+}
+
+    
+/*--DIV QUE CONTE EL LOGOTIC DE JAUME BALMES--*/
+.img{ 
+  width:250px;
+  height:80px;
+  background-image:url('https://www.jaumebalmes.net/wp-content/uploads/2021/09/logo_hd.png');
+  background-size:100%;
+  filter: invert(100%);  /*--FILTRE QUE GIRA COLORS DE L'IMATGE--*/
+}
+
+
+.ins{
+  width:100%;
+  font-family:Verdana;
+  color:#ccc;
+  font-size:55pt;
+  font-weight:900;
+  margin-top:-100px;
+  text-align:right;
+}
+
+
+.bar{
+  font-family:Verdana;
+  color:red;
+  font-size:19pt;
+  font-weight:900;
+  width:100%;
+  text-align:right;
+}
+
+
+ul{
+  color:#ccc;
+}
+
+
+/*--AQUI HAIG DE FORÇAR EL IMPORTANT X ELS LINKS "A"--*/
+ul a{ 
+  color:#ccc!important;
+  text-transform:uppercase;
+  font-weight:800;
+}
+
+</style>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> ALEX N: Practica 6 - HTML forms</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <form>
+        <label>Nom</label><br>
+        <!--El placeholder nos muestra un mensaje por defecto -->
+        <input type="text" placeholder="el teu nom"><br>
+        <label>Cognom</label><br>
+
+        <input type="text" placeholder="el teu cognom"><br>
+        <label>Edat</label><br>
+        <input type="number" placeholder="20"><br>
+        <!--Radio es un típo de input que nos deja seleccionar una opción-->
+       <p>Cicle formatiu que es vol cursar l'any vinent: </p>
+        <label>DAM</label><input type="radio" name="radio" checked><br>
+        <label>ASIX</label><input type="radio" name="radio"><br>
+        <label>Altre...</label><input type="radio" name="radio"><br>
+
+       <p>Marca les teves aficions</p>
+       <!--checked obliga al input a seleccionarlo por defecto-->
+        <label>Estudiar</label><input type="checkbox" checked><br>
+        <label>ASIX</label><input type="checkbox"><br>
+        <label>Llibres</label><input type="checkbox"><br>
+      <!--Checkbox refiere a un tipo de input que marca una opción con check-->  
+        <label>Jugar a Magic</label><input type="checkbox"><br>
+        <label>Fer burilles</label><input type="checkbox"><br>
+        <label>Altres</label><br><textarea rows="10" cols="50" placeholder="Especifica quines"></textarea><br><br>
+        
+    <!--Para especificar una opción desplegable se utiliza el select y las opciones pertinentes-->
+        <label>L'estandar d'HTML que més m'agrada</label>
+        <select>
+            <option>HTML 5</option>
+            <option>XHTML 1.0</option>
+            <option>HTML 4.0.1</option>
+        </select>
+    </form>
+</body>
+</html>
