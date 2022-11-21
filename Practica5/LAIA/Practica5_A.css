@@ -1,0 +1,55 @@
+body { /*--PASSO LES DADES GENERALS DEL DOCUMENT, COM LA FONT-FAMILY I EL COLOR DEL DOCUMENT.--*/
+    font-family: 'Work Sans',sans-serif;
+    color: #999;
+    background-color: #000;
+}
+
+.titlA{
+  margin:5px, auto;
+  display:block;
+  text-transform:uppercase;
+  text-align:center;
+  font-family:'Staatliches';
+  font-size:80pt;
+  font-weight:400;
+  letter-spacing:0.8px;
+  color:transparent!important;  /*--FORÇO EL TRANSPARENT I LI AFEGEIXO EL TEXT STROKE.--*/
+  -webkit-text-stroke:1px #858585;
+}
+
+
+
+.tbA{ /*--TAULA LAIA 2022--*/
+  width: 50%;
+  margin:auto;
+  border:1px solid #858585;
+  background-color:#0c0c0c;
+  border-collapse: collapse; /*--PERQUE TOTS ELS BORDERS S'AJUNTIN--*/
+  
+}
+
+.thA{
+  font-family:'Staatliches'; /*--FONT IMPORTADA DE GOOGLE--*/
+  font-size:30px;
+  font-weight:300;
+  letter-spacing:0.8px;
+  text-align:center;
+  border:1px solid #858585;
+  padding:5px;
+  line-height:120%;
+}
+
+
+
+spn{ /*--EL CHILD DELS HEADERS SON SUBRATLLATS AMB EL WAVY ROSETA--*/
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-offset: 8px;
+  text-decoration-color: #dd6ff8;
+}
+
+.tdA{ 
+  border:1px solid #858585;
+  padding:3px;
+  text-align:center;
+}
