@@ -1,0 +1,45 @@
+body{
+    position: absolute;
+}
+.cuadrado1{
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color:yellow;
+    border: 1px solid blue;
+    z-index: 99;
+}
+
+.cuadrado2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color:#78a4d2;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cuadrado3{
+    position:absolute;
+    width: 160px;
+    height: 120px;
+    background-color:#39ff9e;
+    margin-top: 140px;
+    margin-left: 100px;
+    border: 1px solid black;
+    
+
+}
+
+.cuadrado4{
+    position: relative;
+    background-color:#ff3939;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
