@@ -1,8 +1,11 @@
-body{
+body{ 
+    /*--COLOR DE FONDO EN TODA LA PAGINA--*/
     background: #1c1c1c;
 }
 
 .box-blue{
+    /*--CAJA AZUL CIELO, CON MARGENES Y POSICION ABSOLUTA--*/
+    /*--Z-INDEX FUERZA A ESTE ELEMENTO A QUE SE MUESTRE ENCIMA DE CUALQUIER OTRO DIV--*/
     background-color: skyblue;
     width:160px;
     height:120px;
@@ -13,6 +16,7 @@ body{
 }
 
 .box-yell{
+    /*--CAJA AMARILLA, HIJO DE CAJA AZUL--*/
     background-color: yellow;
     width:40px;
     height:40px;
@@ -22,6 +26,7 @@ body{
 }
 
 .box-red{
+    /*--CAJA ROJA, CON MARGENES Y POSICION ABSOLUTA. ESTE ELEMENTO SE MOSTRARÁ DEBAJO DE LA CAJA AZUL--*/
     position: absolute;
     background-color: indianred;
     width:160px;
@@ -31,6 +36,7 @@ body{
 }
 
 .box-gre{
+    /*--CAJA VERDE, HIJO DE CAJA AZUL--*/
     background-color: green;
     width:40px;
     height:40px;
