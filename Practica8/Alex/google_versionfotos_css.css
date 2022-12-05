@@ -1,0 +1,25 @@
+*{padding:0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+
+.div_contenedor{
+    display:flex;
+    justify-content: center;
+    ;
+}
+.div_item1{
+    margin: 40px;
+    padding: 30px;
+
+    border: 1px solid black;
+    display: flex;
+}
+
+.div_item2{
+    margin: 40px;
+    padding: 30px;
+    border: 1px solid red;
+    display: flex;
+}
