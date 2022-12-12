@@ -14,60 +14,97 @@ body{
 
 .goghead-left{
     width: 20%;
+    justify-content: flex-start;
     display: flex;
 }
 
 
 .goghead-right{
     width: 80%;
+    justify-content: flex-end;
     display: flex;
 }
 
 
 .goghead-link{
-    display: contents;
-
+    margin: 10px;
 }
 
 .goghead-link:hover{
     text-decoration:underline;
-    border-bottom: 1px solid #ccc;
 }
 
 .goghead-icon{
-    font-size: 34px;
-    padding-left:10px;
-    padding-right:10px;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
     cursor: pointer;
-    display: contents;
+    line-height: 135%;
 }
 
 .goghead-button{
     background-color:blue;
-    font-size: 12px;
-    display: contents;
+    font-size: 15px;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 240%;
+    cursor: pointer;
+    border-radius: 7px;
 }
 
 /*--BODY--*/
-
 .gogbody{
-    height:80%;
+    margin-top: 5%;
+    height: 550px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+
+.gog-inputcss{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
 }
 
 /*--FOOT--*/
 .gogfoot{
-    height:10%;
-    width:100%;
-    height: 120px;
+    margin-top: 25%;
     background: #171717;
-    overflow: hidden;
 }
-
-
 
 .gogfoot1{
     padding: 15px 30px;
     border-bottom: 1px solid #3c4043;
     font-size: 15px;
     color: #9aa0a6;
+}
+
+.gogfoot2{
+    display: flex;
+}
+
+.gogfoot2-1{
+    width:50%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.gogfoot2-2{
+    width:50%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.gogfoot2-info{
+    margin-top: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.gogfoot2-info:hover{
+    text-decoration:underline;
 }
