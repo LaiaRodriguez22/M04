@@ -58,8 +58,43 @@ body{
     margin-top: 5%;
     height: 550px;
     width: 100%;
-    background-color: red;
     display: flex;
+}
+
+.gogimg{
+    width: 272px;
+    height: 92px;
+    display: block;
+    position: relative;
+    left: 38%;
+    top: 5%;
+    background-image: url(https://www.google.es/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
+}
+
+.gog-fakeinput{
+    height:55px;
+    width: 584px;
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    padding: 5px 8px 0 14px;
+    margin: 0 auto;
+    background-color: transparent!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gog-fakeinput:hover{
+    
+    background-color: #2b2b2c!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gogsearch-icon1{
+    
+}
+
+.gogsearch-icon2{
+    
 }
 
 .gog-inputcss{
