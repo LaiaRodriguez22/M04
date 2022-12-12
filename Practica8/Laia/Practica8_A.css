@@ -1,4 +1,73 @@
 body{ 
     /*--COLOR DE FONDO EN TODA LA PAGINA--*/
     background: #1c1c1c;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+/*--HEAD--*/
+.goghead{
+    height:10%;
+    display: flex;
+}
+
+.goghead-left{
+    width: 20%;
+    display: flex;
+}
+
+
+.goghead-right{
+    width: 80%;
+    display: flex;
+}
+
+
+.goghead-link{
+    display: contents;
+
+}
+
+.goghead-link:hover{
+    text-decoration:underline;
+    border-bottom: 1px solid #ccc;
+}
+
+.goghead-icon{
+    font-size: 34px;
+    padding-left:10px;
+    padding-right:10px;
+    cursor: pointer;
+    display: contents;
+}
+
+.goghead-button{
+    background-color:blue;
+    font-size: 12px;
+    display: contents;
+}
+
+/*--BODY--*/
+
+.gogbody{
+    height:80%;
+}
+
+/*--FOOT--*/
+.gogfoot{
+    height:10%;
+    width:100%;
+    height: 120px;
+    background: #171717;
+    overflow: hidden;
+}
+
+
+
+.gogfoot1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
 }
