@@ -4,6 +4,7 @@ body{
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #bdc1c6;
+    
 }
 
 /*--HEAD--*/
@@ -72,8 +73,10 @@ body{
 
 /*--FOOT--*/
 .gogfoot{
-    margin-top: 25%;
+    /*--flex-grow: 1;--*/
+    /*--margin-top: 10%;--*/
     background: #171717;
+    display:none;
 }
 
 .gogfoot1{
