@@ -74,7 +74,8 @@ body{
 }
 
 .goghead-button{
-    background-color:blue;
+    background-color:#8ab4f8;
+    color: #202124;
     display: flex;
     height: 35px;
     font-size: 15px;
@@ -82,13 +83,12 @@ body{
     padding-right:10px;
     line-height: 240%;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 /*--BODY--*/
 .gogbody{
     margin-top: 5%;
-    height: 550px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,6 @@ body{
     height: 100%;
     position: relative;
     top: -2px;
-    border-left: 0.8px solid #4b4f52;
     font-size: 27px;
     line-height: 190%;
     padding-right: 4px;
@@ -181,10 +180,9 @@ input{
 
 
 .gog-buttons{
-    border: 1px solid cyan; 
     position: relative;
     display: flex;
-    top: 60px;
+    top: 65px;
     align-self: center;
 }
 
@@ -195,24 +193,40 @@ input{
     width: 118px;
     height: 36px;
     border-radius: 4px;
-    margin: 14px;
+    margin: 14px 7px 14px 7px;
     padding: 0px 16px;
     align-items: center;
     text-align: center;
-    border:1px solid #303134;
+    border:0.5px solid #303134;
 }
 
 .gog-button:hover{
-    border:1px solid #ccc;
+    border:0.5px solid #e8eaed;
+}
+
+.gog-button a{
+    color: #bdc1c6;
+    text-decoration: none;
 }
 
 .gog-links{
-    border: 1px solid cyan;
     position: relative;
     display: flex;
     top: 86px;
     align-self: center;
 }
+
+.gog-links a {
+    margin-left: 5px;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.gog-links a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 
 /*--FOOT--*/
 .gogfoot{
@@ -220,6 +234,7 @@ input{
     display: flow-root;
     position: relative;
     height: -webkit-fill-available;
+    margin-top: 37%;
 }
 
 .gogfoot1{
@@ -238,6 +253,7 @@ input{
     width:50%;
     justify-content: flex-start;
     display: flex;
+    margin-left: 5px;
 }
 
 .gogfoot2-2{
