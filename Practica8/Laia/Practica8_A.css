@@ -1,4 +1,148 @@
 body{ 
     /*--COLOR DE FONDO EN TODA LA PAGINA--*/
     background: #1c1c1c;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    
+}
+
+/*--HEAD--*/
+.goghead{
+    height:10%;
+    display: flex;
+}
+
+.goghead-left{
+    width: 20%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+.goghead-right{
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.goghead-link{
+    margin: 10px;
+}
+
+.goghead-link:hover{
+    text-decoration:underline;
+}
+
+.goghead-icon{
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    line-height: 135%;
+}
+
+.goghead-button{
+    background-color:blue;
+    font-size: 15px;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 240%;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+/*--BODY--*/
+.gogbody{
+    margin-top: 5%;
+    height: 550px;
+    width: 100%;
+    display: flex;
+}
+
+.gogimg{
+    width: 272px;
+    height: 92px;
+    display: block;
+    position: relative;
+    left: 38%;
+    top: 5%;
+    background-image: url(https://www.google.es/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png);
+}
+
+.gog-fakeinput{
+    height:55px;
+    width: 584px;
+    position: relative;
+    display: flex;
+    border-radius: 25px;
+    padding: 5px 8px 0 14px;
+    margin: 0 auto;
+    background-color: transparent!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gog-fakeinput:hover{
+    
+    background-color: #2b2b2c!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gogsearch-icon1{
+    
+}
+
+.gogsearch-icon2{
+    
+}
+
+.gog-inputcss{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #e8eaed;
+    word-wrap: break-word;
+}
+
+/*--FOOT--*/
+.gogfoot{
+    /*--flex-grow: 1;--*/
+    /*--margin-top: 10%;--*/
+    background: #171717;
+    display:none;
+}
+
+.gogfoot1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.gogfoot2{
+    display: flex;
+}
+
+.gogfoot2-1{
+    width:50%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.gogfoot2-2{
+    width:50%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.gogfoot2-info{
+    margin-top: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.gogfoot2-info:hover{
+    text-decoration:underline;
 }
