@@ -1,22 +1,54 @@
-*{padding:0px;
+*{
+
+padding: 2px;
 margin: 0px;
 box-sizing: border-box;
+color:#9aa0a6;
 }
+
+
+
 body{
+
     background: #202124;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*--------- HEADER ----------*/
+
 header{
+
     width: 100%;
     height: 60px;
 }
+
+.foto_yo{
+
+    margin-top: px;
+    width: 35px;
+    height: 35px;
+    border-radius:150px;
+}
+
+.menu_icon{
+
+    width: 40px;
+    height: 40px;
+}
+.menu_icon:hover{
+    
+    border-radius:150px;
+}
+
 header nav{
+
     display: flex;
     justify-content: flex-end;
 }
 
 header > nav > .nav_derecha{
+
     width: 250px;
     height: auto;
     display: flex;
@@ -27,6 +59,7 @@ header > nav > .nav_derecha{
 }
 
 header > nav > ul > li> a{
+
     margin-right: 10px;
     color:white;
     text-decoration-line: none;
@@ -37,57 +70,209 @@ header > nav > ul > li> a:hover{
 
     text-decoration: underline;
 }
-  /* APARTADOS DE CLASES   */
 
-.fotoyo{
-    margin-top: px;
-    width: 35px;
-    height: 35px;
-    border-radius:150px;
+header > nav > .nav_izquierda{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
 }
-.menu_icon{
-    width: 40px;
-    height: 40px;
-}
-.menu_icon:hover{
+
+.nav_izquierda li a{
     
-    border-radius:150px;
+    color:#9aa0a6;
 }
 
-    /* MAIN */
-
-    main{
-        margin-top: 150px;
-        text-align: center;
-    }
-    main .logo_google{
-        width: 530px;
-        margin: 0 auto;
-        margin-bottom: 35px;
-    }
 
 
 
+/*--------- MAIN ----------*/
+
+main{
+
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .logo_google{
+
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
 
 
-    /* ITEMS CENTRO FOTOS */
+/*--------- ITEMS CENTRO ----------*/
+
 
 .div_contenedor{
+
     display:flex;
     justify-content:center;
     
+    
 }
 .div_item1{
-    margin: 40px;
-    padding: 30px;
 
-    border: 1px solid black;
+    margin: 20px;
+    padding: 17px;
+    border: 3px solid greenyellow;
+    display: flex;
+    
+}
+
+.div_item1>div{
+
+    border: 3px solid pink;
+    margin: auto;
+    padding: 18px;
+}
+
+.foto_alex{
+
+    width: 66%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    
+}
+
+.foto_laia{
+
+    width: 66%;
+    justify-content: center;
+    margin: auto;
     display: flex;
 }
 
 .div_item2{
-    margin: 40px;
-    padding: 30px;
-    border: 1px solid red;
+
+    margin: 20px;
+    padding: 18px;
+    border: 3px solid greenyellow;
     display: flex;
 }
+
+.div_item2>div{ 
+    
+    border: 3px solid pink;
+    margin: auto;
+    padding: 10px;}
+
+div.div_contenedor>div.div_item1>div>ul>li{
+    
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+}
+
+div.div_contenedor>div.div_item1>div>ul{
+
+    text-align: center;
+    
+    
+    
+}
+
+div.div_contenedor>.div_item2>div>ul>li{
+
+    margin: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+div.div_contenedor>div.div_item2>div>ul{
+
+    text-align: center;
+    margin: 5px;
+    list-style: none;
+    
+    
+}
+
+/*--------- FOOTER ----------*/
+
+footer{
+
+    position: absolute; right: 0;
+    bottom: 0;
+    left: 0;
+    background: #171717;
+    height: auto;
+    width: 100%;
+    padding-top: 2px;
+    align-self:auto;
+    flex-grow:inherit;
+    
+
+}
+
+footer a{
+
+   
+    text-decoration-line: none;
+    min-width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 14px;
+    padding: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:clip;
+    
+}
+
+footer a:hover{
+
+    text-decoration: underline;
+}
+
+.simbolo_footer{
+
+    height: 16px;
+    
+
+}
+
+/* -----Para que al ser responsive el texto no quede superpuesto,
+        he insertado los valores text-overflow, overflow y white-space,
+        de esta manera conseguimos que el responsive sea efectivo, agrupando
+        las palabras en sus cápsulas ----- */
+
+footer div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    order: 1;
+    justify-content: space-between;
+}
+
+.footer_first{
+
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+}
+
+.footer_left{
+
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+
+
+.footer_right{
+
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    
+}
+
