@@ -1,3 +1,4 @@
+/*--FONT EXTERNA LOGO GOOGLE--*/
 @font-face {
     font-family: 'ProductSPro';
     src: url('https://dl.dropbox.com/s/bj3p9q2s6274mup/Product%20Sans%20Regular.ttf') format('truetype');
@@ -35,15 +36,17 @@ body{
     display: flex;
 }
 
-
+/*--DIV PER LA INFO--*/
 .goghead-link{
     margin: 10px;
 }
 
+/*--INFO AMB HOVER--*/
 .goghead-link:hover{
     text-decoration:underline;
 }
 
+/*--ICON CON LINK--*/
 .goghead-icon{
     width: 37px;
     height: 100%;
@@ -57,10 +60,12 @@ body{
     margin-right:10px;
 }
 
+/*--ICON CON LINK MÉS HOVER --*/
 .goghead-icon:hover{
     background-color:rgba(255,255,255,0.07);
 }
 
+/*--FONT SIZE + POSITION DE ICON--*/
 .goghead-icon i{
     font-size: 20px;
     line-height: 120%;
@@ -73,6 +78,7 @@ body{
     color: rgba(255,255,255,0.87);
 }
 
+/*--FAKE BUTTON INICIAR--*/
 .goghead-button{
     background-color:#8ab4f8;
     color: #202124;
@@ -94,6 +100,7 @@ body{
     flex-direction: column;
 }
 
+/*--LOGO DE GOOGLE--*/
 .goglogo{
     height: 120px;
     display: block;
@@ -106,6 +113,7 @@ body{
     letter-spacing: -3.2px;
 }
 
+/*--DIV QUE CONTÉ ELS ICONOS I EL VERDADER INPUT--*/
 .gog-fakeinput{
     height:44px;
     width: 584px;
@@ -119,11 +127,13 @@ body{
     border: 1px solid #2b2b2c;
 }
 
+/*--HOVER DEL DIV FAKE--*/
 .gog-fakeinput:hover{
     background-color: #2b2b2c!important;
     border: 1px solid #2b2b2c;
 }
 
+/*--ICON LUPA--*/
 .gogsearch-icon1{
     color:#4b4f52;
     font-size: 20px;
@@ -131,6 +141,7 @@ body{
     padding-right: 4px;
 }
 
+/*--ICON TECLAT--*/
 .gogsearch-icon2{
     height: 100%;
     position: relative;
@@ -141,6 +152,7 @@ body{
     padding-left: 12px;
 }
 
+/*--ICON CAMERA--*/
 .gogsearch-icon3{
     /*--AQUEST ICON TÉ UN GRADIENT PER ELS DIVERSOS COLORS QUE TÉ--*/
     font-size: 27px;
@@ -153,6 +165,7 @@ body{
     
 }
 
+/*--INPUT TEXT REAL DINTRE DE FAKEINPUT--*/
 .gog-inputcss{
     background-color: transparent;
     border: none;
@@ -178,7 +191,7 @@ input{
 }
 */
 
-
+/*--DIV CONTENEDOR DE BUTTONS--*/
 .gog-buttons{
     position: relative;
     display: flex;
@@ -186,6 +199,7 @@ input{
     align-self: center;
 }
 
+/*--DIV DE BUTTON--*/
 .gog-button{
     background-color: #303134;
     display: grid;
@@ -199,15 +213,18 @@ input{
     border:0.5px solid #303134;
 }
 
+/*--HOVER DE BUTTONS--*/
 .gog-button:hover{
     border:0.5px solid rgb(133, 133, 133);
 }
 
+/*--LINK DE BUTTONS--*/
 .gog-button a{
     color: #bdc1c6;
     text-decoration: none;
 }
 
+/*--DIV CONTENEDOR DE LINKS--*/
 .gog-links{
     position: relative;
     display: flex;
@@ -215,6 +232,7 @@ input{
     align-self: center;
 }
 
+/*--LINK DE LINKS--*/
 .gog-links a {
     margin-left: 5px;
     color: #8ab4f8;
@@ -235,6 +253,7 @@ input{
     width: 100%;
 }
 
+/*--PRIMERA PART DE FOOT, ESPANYA--*/
 .gogfoot1{
     padding: 15px 30px;
     border-bottom: 1px solid #3c4043;
@@ -242,11 +261,13 @@ input{
     color: #9aa0a6;
 }
 
+/*--SEGONA PART DE FOOT, PRIVACITAT, ETC--*/
 .gogfoot2{
     display: flex;
     height: 50px;
 }
 
+/*--PART ESQUERRA--*/
 .gogfoot2-1{
     width:50%;
     justify-content: flex-start;
@@ -254,12 +275,14 @@ input{
     margin-left: 5px;
 }
 
+/*--PART DRETA--*/
 .gogfoot2-2{
     width:50%;
     justify-content: flex-end;
     display: flex;
 }
 
+/*--DIV DE TOTA LA INFORMACIÓ DINS DEL FOOT--*/
 .gogfoot2-info{
     margin-top: 15px;
     margin-left:10px;
