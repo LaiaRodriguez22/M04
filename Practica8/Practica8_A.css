@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'ProductSPro';
+    src: url('https://dl.dropbox.com/s/bj3p9q2s6274mup/Product%20Sans%20Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{ 
+    /*--COLOR DE FONDO EN TODA LA PAGINA--*/
+    background: #1c1c1c;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    margin: 0;
+}
+
+/*--HEAD--*/
+.goghead{
+    height:10%;
+    display: flex;
+    margin: 5px;
+}
+
+.goghead-left{
+    width: 20%;
+    justify-content: flex-start;
+    display: flex;
+}
+
+
+.goghead-right{
+    width: 80%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.goghead-link{
+    margin: 10px;
+}
+
+.goghead-link:hover{
+    text-decoration:underline;
+}
+
+.goghead-icon{
+    width: 37px;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    line-height: 135%;
+    color: rgba(255,255,255,0.87);
+    background-color:transparent;
+    border-radius: 100%;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.goghead-icon:hover{
+    background-color:rgba(255,255,255,0.07);
+}
+
+.goghead-icon i{
+    font-size: 20px;
+    line-height: 120%;
+    position: relative;
+    top: 6px;
+    left: 9px;
+}
+
+.goghead-icon a{
+    color: rgba(255,255,255,0.87);
+}
+
+.goghead-button{
+    background-color:#8ab4f8;
+    color: #202124;
+    display: flex;
+    height: 35px;
+    font-size: 15px;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 240%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/*--BODY--*/
+.gogbody{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.goglogo{
+    height: 120px;
+    display: block;
+    position: relative;
+    top: 5%;
+    color:#ccc;
+    text-align: center;
+    font-size: 102px!important;
+    font-family: 'ProductSPro';
+    letter-spacing: -3.2px;
+}
+
+.gog-fakeinput{
+    height:44px;
+    width: 584px;
+    position: relative;
+    display: flex;
+    top: 50px;
+    border-radius: 25px;
+    padding: 5px 8px 0 14px;
+    margin: 0 auto;
+    background-color: transparent!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gog-fakeinput:hover{
+    background-color: #2b2b2c!important;
+    border: 1px solid #2b2b2c;
+}
+
+.gogsearch-icon1{
+    color:#4b4f52;
+    font-size: 20px;
+    line-height: 200%;
+    padding-right: 4px;
+}
+
+.gogsearch-icon2{
+    height: 100%;
+    position: relative;
+    top: -2px;
+    font-size: 27px;
+    line-height: 190%;
+    padding-right: 4px;
+    padding-left: 12px;
+}
+
+.gogsearch-icon3{
+    /*--AQUEST ICON TÉ UN GRADIENT PER ELS DIVERSOS COLORS QUE TÉ--*/
+    font-size: 27px;
+    padding-left: 5px;
+    line-height: 170%;
+    background:linear-gradient(269deg, #4285f4, #34a853, #fbbc05, #ea4335);
+    color:transparent;
+    background-size: 25px;
+    -webkit-background-clip: text;
+    
+}
+
+.gog-inputcss{
+    background-color: transparent;
+    border: none;
+    width:467px;
+    color: #e8eaed;
+    word-wrap: break-word;
+    font-family:arial,sans-serif;
+    font-size:18px;
+    font-weight:300;
+    display: flex;
+}
+
+/*--PER TREURE EL OUTLINE QUE VE PER DEFECTE A LA CLASSE INPUT--*/
+input{
+    border: none;
+    outline: none;
+}
+
+/* NO ENTENC PERQUE NO S'ACTIVA EL gog-inputcss input. 
+.gog-inputcss input:active, .gog-inputcss input:focus{
+    border: none;
+    outline: none;
+}
+*/
+
+
+.gog-buttons{
+    position: relative;
+    display: flex;
+    top: 65px;
+    align-self: center;
+}
+
+.gog-button{
+    background-color: #303134;
+    display: grid;
+    position: relative;
+    height: 36px;
+    border-radius: 4px;
+    margin: 14px 7px 14px 7px;
+    padding: 0px 16px;
+    align-items: center;
+    text-align: center;
+    border:0.5px solid #303134;
+}
+
+.gog-button:hover{
+    border:0.5px solid rgb(133, 133, 133);
+}
+
+.gog-button a{
+    color: #bdc1c6;
+    text-decoration: none;
+}
+
+.gog-links{
+    position: relative;
+    display: flex;
+    top: 86px;
+    align-self: center;
+}
+
+.gog-links a {
+    margin-left: 5px;
+    color: #8ab4f8;
+    text-decoration: none;
+}
+
+.gog-links a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*--FOOT--*/
+.gogfoot{
+    background: #171717;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.gogfoot1{
+    padding: 15px 30px;
+    border-bottom: 1px solid #3c4043;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+.gogfoot2{
+    display: flex;
+    height: 50px;
+}
+
+.gogfoot2-1{
+    width:50%;
+    justify-content: flex-start;
+    display: flex;
+    margin-left: 5px;
+}
+
+.gogfoot2-2{
+    width:50%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.gogfoot2-info{
+    margin-top: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.gogfoot2-info:hover{
+    text-decoration:underline;
+}
