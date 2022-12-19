@@ -190,7 +190,6 @@ input{
     background-color: #303134;
     display: grid;
     position: relative;
-    width: 118px;
     height: 36px;
     border-radius: 4px;
     margin: 14px 7px 14px 7px;
@@ -201,7 +200,7 @@ input{
 }
 
 .gog-button:hover{
-    border:0.5px solid #e8eaed;
+    border:0.5px solid rgb(133, 133, 133);
 }
 
 .gog-button a{
@@ -231,10 +230,9 @@ input{
 /*--FOOT--*/
 .gogfoot{
     background: #171717;
-    display: flow-root;
-    position: relative;
-    height: -webkit-fill-available;
-    margin-top: 37%;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
 
 .gogfoot1{
